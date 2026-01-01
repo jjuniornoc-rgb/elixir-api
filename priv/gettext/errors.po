@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+
+msgid "is invalid"
+msgstr "is invalid"
+
+msgid "has already been taken"
+msgstr "has already been taken"
+
