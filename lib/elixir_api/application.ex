@@ -32,4 +32,3 @@ defmodule ElixirApi.Application do
     :ok
   end
 end
-

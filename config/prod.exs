@@ -13,4 +13,3 @@ config :logger, level: :info
 
 # Runtime production configuration
 config :elixir_api, :gcs_bucket, System.get_env("GCS_BUCKET")
-

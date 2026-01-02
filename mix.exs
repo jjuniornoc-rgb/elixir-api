@@ -7,7 +7,6 @@ defmodule ElixirApi.MixProject do
       version: "0.1.0",
       elixir: "~> 1.14",
       elixir_paths: elixir_paths(Mix.env()),
-      compilers: [:gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -49,4 +48,3 @@ defmodule ElixirApi.MixProject do
     ]
   end
 end
-

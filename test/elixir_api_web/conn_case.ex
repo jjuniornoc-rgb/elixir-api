@@ -33,4 +33,3 @@ defmodule ElixirApiWeb.ConnCase do
     {:ok, conn: Phoenix.ConnTest.build_conn()}
   end
 end
-

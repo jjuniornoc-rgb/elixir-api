@@ -51,4 +51,3 @@ defmodule ElixirApiWeb.Endpoint do
 
   plug ElixirApiWeb.Router
 end
-
