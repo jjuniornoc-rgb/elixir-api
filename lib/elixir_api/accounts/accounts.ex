@@ -3,32 +3,26 @@ defmodule ElixirApi.Accounts do
   The Accounts context.
   """
 
-  import Ecto.Query, warn: false
-  alias ElixirApi.Repo
-
   # Exemplo de estrutura para um contexto
   # Descomente e implemente conforme necessário
 
   # def list_users do
-  #   Repo.all(User)
+  #   # Implementação aqui
   # end
 
-  # def get_user!(id), do: Repo.get!(User, id)
+  # def get_user!(id) do
+  #   # Implementação aqui
+  # end
 
   # def create_user(attrs \\ %{}) do
-  #   %User{}
-  #   |> User.changeset(attrs)
-  #   |> Repo.insert()
+  #   # Implementação aqui
   # end
 
-  # def update_user(%User{} = user, attrs) do
-  #   user
-  #   |> User.changeset(attrs)
-  #   |> Repo.update()
+  # def update_user(user, attrs) do
+  #   # Implementação aqui
   # end
 
-  # def delete_user(%User{} = user) do
-  #   Repo.delete(user)
+  # def delete_user(user) do
+  #   # Implementação aqui
   # end
 end
-

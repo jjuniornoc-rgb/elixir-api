@@ -6,15 +6,14 @@ Uma API RESTful desenvolvida em Elixir usando Phoenix Framework.
 
 - Elixir 1.14 ou superior
 - Erlang/OTP 25 ou superior
-- PostgreSQL
 - Mix (geralmente incluído com Elixir)
 
 ## Instalação
 
 1. Clone o repositório:
 ```bash
-git clone <seu-repositorio>
-cd elixir
+git clone https://github.com/jjuniornoc-rgb/elixir-api.git
+cd elixir-api
 ```
 
 2. Instale as dependências:
@@ -26,17 +25,6 @@ mix deps.get
 ```bash
 cp .env.example .env
 # Edite o arquivo .env com suas configurações
-```
-
-4. Crie e configure o banco de dados:
-```bash
-mix ecto.create
-mix ecto.migrate
-```
-
-5. (Opcional) Execute as seeds do banco de dados:
-```bash
-mix run priv/repo/seeds.exs
 ```
 
 ## Executando a API
@@ -61,9 +49,6 @@ lib/
 │   ├── views/            # Views JSON
 │   └── router.ex         # Rotas
 config/                    # Configurações
-priv/
-└── repo/
-    └── migrations/       # Migrações do banco de dados
 ```
 
 ## Endpoints

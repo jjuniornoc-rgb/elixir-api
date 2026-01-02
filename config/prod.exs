@@ -1,14 +1,5 @@
 import Config
 
-# Configure your database
-config :elixir_api, ElixirApi.Repo,
-  username: System.get_env("DB_USER"),
-  password: System.get_env("DB_PASSWORD"),
-  hostname: System.get_env("DB_HOST"),
-  database: System.get_env("DB_NAME"),
-  pool_size: String.to_integer(System.get_env("POOL_SIZE", "10")),
-  ssl: System.get_env("DB_SSL", "false") == "true"
-
 config :elixir_api, ElixirApiWeb.Endpoint,
   http: [
     ip: {0, 0, 0, 0, 0, 0, 0, 0},

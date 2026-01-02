@@ -5,16 +5,6 @@ if File.exists?(".env") do
   DotenvParser.load_file(".env")
 end
 
-# Configure your database
-config :elixir_api, ElixirApi.Repo,
-  username: System.get_env("DB_USER", "postgres"),
-  password: System.get_env("DB_PASSWORD", "postgres"),
-  hostname: System.get_env("DB_HOST", "localhost"),
-  database: System.get_env("DB_NAME", "elixir_api_dev"),
-  stacktrace: true,
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
-
 # For development, we disable any cache and enable
 # debugging and code reloading.
 config :elixir_api, ElixirApiWeb.Endpoint,

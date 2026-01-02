@@ -7,9 +7,6 @@
 # General application configuration
 import Config
 
-config :elixir_api,
-  ecto_repos: [ElixirApi.Repo]
-
 # Configures the endpoint
 config :elixir_api, ElixirApiWeb.Endpoint,
   url: [host: System.get_env("HOST", "localhost")],
