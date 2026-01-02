@@ -29,6 +29,7 @@ defmodule ElixirApi.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.7.0"},
+      {:phoenix_live_reload, "~> 1.5", only: :dev},
       {:phoenix_live_dashboard, "~> 0.7.2"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
